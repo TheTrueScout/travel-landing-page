@@ -312,7 +312,7 @@ label[for="play-demo"]:hover {
 
 .category2-background {
   position: absolute;
-  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.048);
+  box-shadow: 0 40px 20px rgba(0, 0, 0, 0.048);
   background-color: white;
   width: 267px;
   height: 314px;
@@ -331,4 +331,10 @@ label[for="play-demo"]:hover {
   left: -55px;
   border-radius: 25px 0 10px 0;
   z-index: -3;
+}
+
+#category-bg {
+  position: absolute;
+  right: 58px;
+  margin-top: 20px;
 }
