@@ -8,6 +8,8 @@ body {
   padding-bottom: 1000px;
 }
 
+
+
 h1 {
   font-family: VolKhov, sans-serif;
   font-weight: 700;
@@ -38,7 +40,7 @@ h3 {
 h4 {
   font-family: Poppins, sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   color: #5E6282;
   margin-bottom: 10px;
 }
@@ -49,6 +51,20 @@ h5 {
   font-weight: 500;
   font-size: 20px;
   color: #1E1D4C;
+}
+
+h6 {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5E6282;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #5E6282;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
 }
 
 .one-for-all {
@@ -216,7 +232,7 @@ label[for="play-demo"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 .category-header {
@@ -304,11 +320,7 @@ label[for="play-demo"]:hover {
   width: 80%;
 }
 
-.category-p-container p {
-  color: #5E6282;
-  font-family: Poppins;
-  font-weight: 500;
-}
+
 
 .category2-background {
   position: absolute;
@@ -337,4 +349,66 @@ label[for="play-demo"]:hover {
   position: absolute;
   right: 58px;
   margin-top: 20px;
+}
+
+  /* Top Destinations */
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+
+}
+
+.destinations-header {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.destinations-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.destinations-item-container {
+  position: relative;
+}
+
+.destinations-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 20px 40px 20px;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+  border-radius: 0 0 25px 25px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.089);
+}
+
+.destinations-text-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.destinations-text-header h6 {
+  margin: 0;
+}
+
+.destinations-text-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.destinations-text-footer p {
+  margin: 0;
+}
+
+#destination-bg {
+  position: absolute;
+  right: 78px;
+  margin-top: 160px;
 }
