@@ -82,6 +82,10 @@ h8 {
   margin-bottom: 10px;
 }
 
+.h2mgbot {
+  margin-bottom: 80px;
+}
+
 p {
   color: #5E6282;
   font-family: Poppins, sans-serif;
@@ -453,6 +457,7 @@ label[for="play-demo"]:hover {
 .next-trip {
   display: flex;
   flex-direction: column;
+  margin-bottom: 180px;
 }
 
 .next-trip-items {
@@ -594,4 +599,30 @@ label[for="play-demo"]:hover {
   height: 5px;
   background-color: #8A79DF;
   border-radius: 5px;
+}
+
+  /* Testimonials */
+.testimonials {
+  display: flex;
+  flex: 1;
+}
+
+.testimonials-left {
+  flex: 0.8;
+}
+
+.testimonials-right {
+  flex: 1.2;
+}
+
+.bullet-testimonial-selectors{
+  display: flex;
+  gap: 20px;
+}
+
+.bullet-selector {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #E5E5E5;
 }
