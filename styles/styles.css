@@ -612,8 +612,13 @@ label[for="play-demo"]:hover {
 }
 
 .testimonials-right {
+  display: flex;
   flex: 1.2;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .bullet-testimonial-selectors{
   display: flex;
@@ -625,4 +630,40 @@ label[for="play-demo"]:hover {
   height: 15px;
   border-radius: 15px;
   background-color: #E5E5E5;
+}
+
+.bg39425D {
+  background-color: #39425D;
+}
+
+
+.testimonial-container {
+  display: flex;
+  width: 70%;
+  height: 270px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.089);
+  padding: 28px 68px 34px 34px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#testimonial-img {
+  position: absolute;
+  left: -34px;
+  top: -25px;
+}
+
+.test-bg-container {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #F7F7F7;
+  z-index: -1;
+  box-shadow: none;
+  right: -50px;
+  bottom: -80px;
+  padding-top: 60px;
 }
