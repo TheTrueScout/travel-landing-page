@@ -769,10 +769,17 @@ label[for="play-demo"]:hover {
 #email-input {
  width: 85%;
  border: none;
- font-size: 20px;
  color: #5E6282;
- font-weight: 600;
+ font-family: Montserrat, sans-serif;
+ font-size: 14px;
+ font-weight: 400;
  border-radius: 10px;
+}
+
+#email-input::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 #email-subscribe {
