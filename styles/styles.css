@@ -5,7 +5,7 @@ body {
   position: relative;
   margin: 0;
 
-  padding-bottom: 1000px;
+  padding-bottom: 50px;
 }
 
 
@@ -86,12 +86,32 @@ h8 {
   margin-bottom: 80px;
 }
 
+.no-mg {
+  margin: 0;
+}
+
 h9 {
   font-size: 33px;
   color: #5E6282;
   font-weight: 600;
   font-family: Poppins, sans-serif;
   line-height: 54px;
+}
+
+h10 {
+  font-family: Poppins, sans-serif;
+  font-size: 44px;
+  font-weight: 500;
+  color: #181E4B;
+  margin-bottom: 20px;
+}
+
+h11 {
+  font-size: 21px;
+  color: #080809;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
 p {
@@ -106,6 +126,11 @@ p {
 
 .p14px {
   font-size: 14px;
+  margin: 0;
+}
+
+.p13px {
+  font-size: 13px;
   margin: 0;
 }
 
@@ -720,6 +745,7 @@ label[for="play-demo"]:hover {
   /* Subscribe */
 .subscribe {
   width: 100%;
+  margin-bottom: 150px;
 }
 
 .subscribe-container {
@@ -818,4 +844,36 @@ label[for="play-demo"]:hover {
   position: absolute;
   right: 40px;
   margin-top: 320px;
+}
+
+  /* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+}
+
+.main-footer {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.footer-flex-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.footer-flex-05 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  gap: 15px;
+}
+
+.bot-footer {
+  width: 100%;
+  text-align: center;
 }
