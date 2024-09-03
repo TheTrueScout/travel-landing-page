@@ -168,6 +168,14 @@ nav {
   width: 70%;
 }
 
+.nav-ani {
+  transition: transform 0.2s;
+}
+
+.nav-ani:hover {
+  transform: translateY(-10px);
+}
+
 .logo-container {
   width: 30%;
 }
