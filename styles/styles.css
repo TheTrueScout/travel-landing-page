@@ -297,15 +297,9 @@ label[for="play-demo"] {
   border: 2px solid transparent;
   border-radius: 4px;
   padding: 2px 10px 2px 10px;
-  transition: border 0.2s;
 }
 label[for="play-demo"] p {
   margin: 0;
-}
-
-label[for="play-demo"]:hover {
-  border: 2px solid #181E4B;
-  cursor: pointer;
 }
 
   /* Category */
