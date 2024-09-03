@@ -742,6 +742,15 @@ label[for="play-demo"]:hover {
   z-index: -1;
 }
 
+.logo {
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+.logo:hover {
+  filter: none;
+}
+
   /* Subscribe */
 .subscribe {
   width: 100%;
