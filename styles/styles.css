@@ -734,7 +734,6 @@ label[for="play-demo"] p {
   width: 100%;
   justify-content: space-between;
   box-sizing: border-box;
-  position: relative;
   align-items: center;
   margin-bottom: 100px;
 }
@@ -743,22 +742,39 @@ label[for="play-demo"] p {
   object-fit: contain;
 }
 
-.expedia-bg {
-  position: absolute;
+.logo {
+  filter: grayscale(100%);
+  transition: 0.2s;
+}
+
+.sponsors-hover-bg {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-bg {
   width: 200px;
   height: 110px;
   border-radius: 20px;
   background-color: white;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.089);
-  margin: 0 auto;
-  left: 40px;
-  right: 0;
+  opacity: 0;
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  top: -50%;
+  bottom: -50%;
+  margin: auto;
   z-index: -1;
+  transition: 0.2s;
+  pointer-events: none;
 }
 
-.logo {
-  filter: grayscale(100%);
-  transition: 0.2s;
+label[for="logo"]:hover .logo-bg {
+  opacity: 1;
 }
 
 .logo:hover {
