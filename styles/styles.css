@@ -169,11 +169,22 @@ nav {
 }
 
 .nav-ani {
-  transition: transform 0.2s;
+  position: relative;
 }
 
-.nav-ani:hover {
-  transform: translateY(-10px);
+.nav-ani::after {
+  content: '';
+  position: absolute;
+  height: 1.5px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: black;
+  transition: width 0.2s;
+}
+
+.nav-ani:hover::after {
+  width: 100%;
 }
 
 .logo-container {
@@ -210,6 +221,7 @@ nav a {
   background-color: transparent;
   border: none;
 }
+
 
   /* Front Page */
 .front-page {
@@ -294,9 +306,9 @@ label[for="play-demo"] {
   display: flex;
   align-items: center;
   padding: 0;
-  border: 2px solid transparent;
   border-radius: 4px;
   padding: 2px 10px 2px 10px;
+  cursor: pointer;
 }
 label[for="play-demo"] p {
   margin: 0;
