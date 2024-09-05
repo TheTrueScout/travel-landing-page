@@ -13,7 +13,7 @@ body {
 h1 {
   font-family: VolKhov, sans-serif;
   font-weight: 700;
-  font-size: 79px;
+  font-size: clamp(3.5rem, 5.3vw, 5rem);
   line-height: 79px;
   margin-top: 0;
   color: #181E4B;
@@ -923,4 +923,20 @@ footer {
 .bot-footer {
   width: 100%;
   text-align: center;
+}
+
+  /* Responsive for 1280px screens */
+@media screen and (max-width: 1280px) {
+
+  .item-text-containers {
+    width: 90%;
+  }
+
+  .right-item-container {
+    width: 60%;
+  }
+
+  .test-bg-container {
+    padding-top: 40px;
+  }
 }
