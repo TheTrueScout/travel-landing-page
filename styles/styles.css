@@ -155,6 +155,15 @@ p {
   z-index: -1;
 }
 
+#hamburger-menu {
+  position: absolute; 
+  width: 30px;
+  height: auto;
+  top: 30px;
+  right: 30px;
+  visibility: hidden;
+}
+
   /* Header */
 header{
   width: 100%;
@@ -1245,26 +1254,17 @@ footer {
       text-align: center;
     }
     nav {
-      gap: 5px;
-      width: 100%;
-    }
-    .header-nav {
-      flex-direction: column;
-      height: unset;
-      margin-bottom: 20px;
-    }
-    .nav-ani {
-      font-size: 12px;
-      white-space: wrap;
-
+      visibility: hidden;
     }
     #page-logo {
       width: 70px;
       height: auto;
     }
-    #sign-up {
-      font-size: 12px;
-      padding: 3px;
-      white-space: nowrap;
+    #hamburger-menu {
+      visibility: visible;
+    }
+    #underline-enjoy {
+      width: 40vw;
+      left: -22px;
     }
   }
